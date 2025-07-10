@@ -1,0 +1,165 @@
+.header {
+    max-width: 1920px;
+    min-height: 1000px;
+    margin: 0 auto;
+    background-image: url(../img/header__background.jpg);
+    background-repeat: no-repeat;
+}
+.burger {
+    width: 30px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .burger span {
+    display: none;
+    height: 4px;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+.container {
+    max-width: 1316px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 103px;
+}
+.header__logo {
+    margin-right: 124px;
+}
+.header__nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    margin-right: 185px;
+}
+.header__nav-ul {
+    max-width: 740px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.header__nav-li {
+    margin-right: 40px;
+}
+.header__nav-li:last-child {
+    margin-right: 0;
+}
+.header__nav-a {
+}
+.header__social {
+    width: 92px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__social-yout {
+    cursor: pointer;
+}
+.header__social-vk {
+    cursor: pointer;
+}
+
+/* АДАПТИВ=================================================== */
+/* АДАПТИВ=================================================== */
+/* АДАПТИВ=================================================== */
+
+@media (max-width: 1300px) {
+    .header__logo {
+        margin-right: 50px;
+    }
+    .header__nav {
+        margin-right: auto;
+    }
+}
+@media (max-width: 1100px) {
+    .header__nav-li {
+        margin-right: 30px;
+    }
+}
+@media (max-width: 1000px) {
+    .header__top {
+        justify-content: space-between;
+    }
+    .header__logo {
+        margin: 0;
+    }
+    .header__nav {
+        position: absolute;
+        top: 20px;
+        right: 330px;
+        font-size: 30px;
+        display: block;
+        margin: 0;
+        display: none;
+    }
+    .header__nav.active {
+        display: block;
+    }
+
+    .header__nav-ul {
+        flex-direction: column;
+    }
+    .header__nav-li {
+        margin: 0;
+    }
+    .header__social {
+        display: none;
+    }
+    .burger span {
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    .header__nav {
+        right: 300px;
+    }
+}
+@media (max-width: 800px) {
+    .header__nav {
+        right: 250px;
+    }
+}
+@media (max-width: 700px) {
+    .header__nav {
+        right: 200px;
+    }
+}
+@media (max-width: 600px) {
+    .header__nav {
+        right: 150px;
+    }
+}
+@media (max-width: 550px) {
+    .header__nav {
+        right: 110px;
+    }
+}
+@media (max-width: 500px) {
+    .header__nav {
+        top: 110px;
+        right: 96px;
+    }
+}
+@media (max-width: 350px) {
+    .header__nav {
+        top: 110px;
+        right: 62px;
+    }
+}
+@media (max-width: 300px) {
+    .header__nav {
+        top: 110px;
+        right: 40px;
+    }
+}
