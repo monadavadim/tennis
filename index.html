@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Tennis</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
+        <div class="header__top-wrapper">
+      <div class="container">
             <div class="header__top">
-                <div class="header__logo">
-                    <img src="img/header__logo.svg" alt="">
+              <div class="header__logo">
+                <img src="img/header__logo.svg" alt="" />
+              </div>
+              <nav class="header__nav" id="header__nav">
+                <ul class="header__nav-ul">
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">Главная</a>
+                  </li>
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">О клубе</a>
+                  </li>
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">Турниры</a>
+                  </li>
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">Услуги</a>
+                  </li>
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">Детский теннис</a>
+                  </li>
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">Галерея</a>
+                  </li>
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">Цены</a>
+                  </li>
+                  <li class="header__nav-li">
+                    <a class="header__nav-a" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__social">
+                <div class="header__social-yout">
+                  <img src="img/header__youtube.svg" alt="" />
                 </div>
-                <nav class="header__nav" id="header__nav">
-                    <ul class="header__nav-ul">
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">Главная</a>
-                       </li>
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">О клубе</a>
-                       </li>
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">Турниры</a>
-                       </li>
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">Услуги</a>
-                       </li>
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">Детский теннис</a>
-                       </li>
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">Галерея</a>
-                       </li>
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">Цены</a>
-                       </li>
-                       <li class="header__nav-li">
-                        <a class="header__nav-a" href="#">Контакты</a>
-                       </li>
-                    </ul>
-                </nav>
-                <div class="header__social">
-                    <div class="header__social-yout"><img src="img/header__youtube.svg" alt=""></div>
-                    <div class="header__social-vk"><img src="img/header__vk.svg" alt=""></div>
+                <div class="header__social-vk">
+                  <img src="img/header__vk.svg" alt="" />
                 </div>
-                <div class="burger" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
+              </div>
+              <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
         </div>
+        </div>
+       <div class="container">
+            <div class="header__body">
+              <h1 class="header__body-title">
+                Петербургский теннисный клуб имени М.А. Пасечникова
+              </h1>
+              <div class="header__body-button">
+                <a href="#">
+                  <svg class="header__body-button-img"
+                    width="80"
+                    height="80"
+                    viewBox="0 0 80 80"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g opacity="0"><circle cx="40" cy="40" r="39.5" stroke="white" /></g>
+                    <circle cx="40" cy="40" r="32" fill="#8D86C9" />
+                    <path d="M48 40L32 50L32 30L48 40Z" fill="white" />
+                  </svg>
+                </a>
+                <p class="header__body-button-text">Посмотрите видео о нашем клубе</p>
+              </div>
+            </div>
+       </div>
+      
     </header>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
