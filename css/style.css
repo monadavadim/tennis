@@ -439,6 +439,7 @@
 
 
 .trainers {
+    margin-bottom: 150px;
 }
 .trainers__inner {
     
@@ -525,6 +526,133 @@
 }
 
 
+/* ЦЕНЫ И УСЛУГИ===================================== */
+/* ЦЕНЫ И УСЛУГИ===================================== */
+/* ЦЕНЫ И УСЛУГИ============================================ */
+
+
+.price {
+}
+.price__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.prise__leftblock {
+    max-width: 526px;
+}
+.prise__leftblock-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #333;
+    margin-bottom: 75px;
+}
+.prise__leftblock-accordion {
+    position: relative;
+    margin-bottom: 30px;
+}
+.accorion__label {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 140%;
+    position: relative;
+    padding: 15px 30px;
+    width: 526px;
+    height: 60px;
+    background-color: #8d86c9;
+    color: #fff;
+    cursor: pointer;
+}
+.accorion__label::after {
+    content: "";
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/arrow__left.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.prise__leftblock-accordion.active .accorion__label::after {
+    content: "";
+    width: 18px;
+    height: 20px;
+    background-image: url(../img/arrow__left.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(270deg);
+    top: 20px;
+    right: 20px;
+}
+.accordion__contant {
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.3s;
+}
+.accordion__contant p {
+    padding: 20px;
+}
+.prise__rightblock {
+    max-width: 636px;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.services-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #333;
+}
+.services-buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 105px;
+}
+.services-button-left {
+}
+
+.services-button-right {
+}
+
+.price__slider {
+}
+.swiper {
+}
+.price__wrapper {
+}
+.swiper-wrapper {
+}
+.price__slide {
+}
+.swiper-slide {
+}
+.price__slide-box {
+    max-width: 636px;
+    border: 1px solid #f7ece1;
+}
+.price__slide-img {
+    position: relative;
+    object-fit: cover;
+    padding: 25px;
+    width: 632px;
+    height: 270px;
+}
+.img__text {
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 140%;
+    color: #fff;
+}
+
+
 
 /* АДАПТИВ=================================================== */
 /* АДАПТИВ=================================================== */
@@ -543,6 +671,18 @@
     }
     .trainers__slider {
         max-width: 1230px;
+    }
+    .price__inner {
+        justify-content: space-around;
+    }
+    .accorion__label {
+        width: 330px;
+    }
+    .accordion__contant {
+        max-width: 330px;
+    }
+    .trainers {
+        margin-bottom: 100px;
     }
 }
 @media (max-width: 1200px) {
@@ -582,6 +722,19 @@
     }
     .trainers__slider {
         max-width: 1020px;
+    }
+    .price__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .prise__leftblock {
+        max-width: 636px;
+    }
+    .accorion__label {
+        width: 636px;
+    }
+    .accordion__contant {
+        max-width: 636px;
     }
 }
 @media (max-width: 1000px) {
@@ -782,8 +935,23 @@
         height: 250px;
         margin-right: 10px;
     }
+    .services {
+        margin-bottom: 30px;
+    }
     .trainers__slider {
         max-width: 600px;
+    }
+    .prise__leftblock {
+        max-width: 500px;
+    }
+    .accorion__label {
+        width: 500px;
+    }
+    .prise__rightblock {
+        max-width: 500px;
+    }
+    .price__slide-img {
+        width: 500px;
     }
 }
 @media (max-width: 600px) {
@@ -906,6 +1074,18 @@
     .header__botton__nav-4-icon {
         display: none;
     }
+    .prise__leftblock {
+        width: 350px;
+    }
+    .accorion__label {
+        width: 350px;
+    }
+    .prise__rightblock {
+        max-width: 350px;
+    }
+    .price__slide-img {
+        width: 350px;
+    }
 }
 @media (max-width: 500px) {
     .header__nav {
@@ -1027,6 +1207,25 @@
     .trainers__top-title {
         font-size: 30px;
         margin-bottom: 15px;
+    }
+    .prise__leftblock {
+        width: 300px;
+    }
+    .prise__leftblock-text {
+        font-size: 30px;
+    }
+    .accorion__label {
+        width: 300px;
+        font-size: 18px;
+    }
+    .accordion__contant {
+        max-width: 300px;
+    }
+    .prise__rightblock {
+        max-width: 300px;
+    }
+    .price__slide-img {
+        width: 300px;
     }
 }
 @media (max-width: 350px) {
