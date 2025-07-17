@@ -259,6 +259,7 @@
 }
 
 .main {
+    margin-bottom: 150px;
 }
 .section__images {
     display: flex;
@@ -652,6 +653,291 @@
     color: #fff;
 }
 
+/* ФУТЕР======================================================= */
+/* ФУТЕР======================================================= */
+/* ФУТЕР======================================================= */
+
+.footer {
+}
+.footer__wrapper {
+    height: 96px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #f7ece1;
+    color: #333;
+}
+.footer__inner {
+    height: 96px;
+    display: flex;
+    align-items: center;
+}
+.footer__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    opacity: 0.3;
+    margin-right: 104px;
+    white-space: nowrap;
+}
+.footer__nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    white-space: nowrap;
+}
+.footer__nav-ul {
+    display: flex;
+}
+.footer__nav-li {
+    margin-right: 40px;
+}
+.footer__nav-li:last-child {
+    margin-right: 107px;
+}
+.footer__nav-a {
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 0.2s ease;
+}
+.footer__nav-a:hover {
+    transform: scale(1.10);
+}
+.footer__social {
+    display: flex;
+    align-items: center;
+}
+.footer__social-icon1 {
+    margin-right: 22px;
+    cursor: pointer;
+}
+.footer__social-icon2 {
+    margin-right: 22px;
+    cursor: pointer;
+}
+.footer__social-icon3 {
+    cursor: pointer;
+}
+
+
+
+/* HEADER NEWS==================================================== */
+/* HEADER NEWS==================================================== */
+/* HEADER NEWS==================================================== */
+
+.news__burger {
+    width: 30px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.news__burger span {
+    height: 4px;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+    display: none;
+}
+
+.header__news {
+    max-width: 1920px;
+    height: 263px;
+    margin: 0 auto;
+    background-image: url(../img/header__news.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+.header__news-wrapper {
+}
+.header__news-top {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+.header__news-top-logo {
+    margin-right: 124px;
+}
+.header__news-top-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+}
+.header__news-top-ul {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+   
+}
+.header__news-top-li {
+    margin-right: 40px;
+}
+.header__news-top-li:last-child {
+    margin-right: 185px;
+}
+.header__news-top-a {
+    display: inline-block;
+    transition: all 0.3s;
+}
+.header__news-top-a:hover {
+    transform: scale(1.10);
+}
+.header__news-top-social {
+    display: flex;
+    align-items: center;
+}
+.header__news-top-social-icon1 {
+    margin-right: 24px;
+    cursor: pointer;
+}
+.header__news-top-social-icon2 {
+    cursor: pointer;
+}
+.header__news-top-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+}
+
+/* НОВОСТИ===================================================== */
+/* НОВОСТИ===================================================== */
+/* НОВОСТИ===================================================== */
+
+.section__news {
+    margin-bottom: 120px;
+}
+.section__news-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+.section__news-grid1 {
+}
+.grid--style--box {
+    max-width: 416px;
+    min-height: 512px;
+    border: 1px solid #f7ece1;
+}
+.section__news-grid1-container {
+    
+}
+.grid--style--container {
+    padding: 30px 40px;
+}
+.section__news-grid1-img {
+}
+.grid--style--img {
+    max-width: 336px;
+    min-height: 240px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.grid--style--img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* подгонка без искажения */
+    transition: transform 0.3s ease;
+}
+.grid--style--img:hover img {
+    transform: scale(1.10);
+}
+.section__news-grid1-text1 {
+}
+.grid--style--text1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+.section__news-grid1-text2 {
+}
+.grid--style--text2 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 140%;
+    color: #333;
+    margin-bottom: 20px;
+}
+.section__news-grid1-text3 {
+}
+.grid--style--text3 {
+    cursor: pointer;
+    text-align: center;
+    line-height: 170%;
+    width: 137px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: #8d86c9;
+    color: #fff;
+}
+.section__news-grid2 {
+}
+.section__news-grid2-container {
+}
+.section__news-grid2-img {
+}
+.section__news-grid2-text1 {
+}
+.section__news-grid2-text2 {
+}
+.section__news-grid2-text3 {
+}
+.section__news-grid3 {
+}
+.section__news-grid3-container {
+}
+.section__news-grid3-img {
+}
+.section__news-grid3-text1 {
+}
+.section__news-grid3-text2 {
+}
+.section__news-grid3-text3 {
+}
+.section__news-grid4 {
+}
+.section__news-grid4-container {
+}
+.section__news-grid4-img {
+}
+.section__news-grid4-text1 {
+}
+.section__news-grid4-text2 {
+}
+.section__news-grid4-text3 {
+}
+.section__news-grid5 {
+}
+.section__news-grid5-container {
+}
+.section__news-grid5-img {
+}
+.section__news-grid5-text1 {
+}
+.section__news-grid5-text2 {
+}
+.section__news-grid5-text3 {
+}
+.section__news-grid6 {
+}
+.section__news-grid6-container {
+}
+.section__news-grid6-img {
+}
+.section__news-grid6-text1 {
+}
+.section__news-grid6-text2 {
+}
+.section__news-grid6-text3 {
+}
+
 
 
 /* АДАПТИВ=================================================== */
@@ -660,6 +946,32 @@
 @media (max-width: 1500px) {
     .sport__club {
         margin-bottom: 100px;
+    }
+}
+@media (max-width: 1400px) {
+    .footer__inner {
+        justify-content: center;
+    }
+    .footer__text {
+        margin-right: 50px;
+    }
+    .footer__nav-li {
+        margin-right: 30px;
+    }
+    .footer__nav-li:last-child {
+        margin-right: 30px;
+    }
+    .header__news-top {
+        justify-content: center;
+    }
+    .header__news-top-logo {
+        margin-right: 40px;
+    }
+    .header__news-top-li {
+        margin-right: 30px;
+    }
+    .header__news-top-li:last-child {
+        margin-right: 30px;
     }
 }
 @media (max-width: 1300px) {
@@ -715,6 +1027,9 @@
     .sport__club {
         margin-bottom: 50px;
     }
+    .footer__nav {
+        display: none;
+    }
 }
 @media (max-width: 1100px) {
     .header__nav-li {
@@ -735,6 +1050,9 @@
     }
     .accordion__contant {
         max-width: 636px;
+    }
+    .grid--style--container {
+        padding: 20px 20px;
     }
 }
 @media (max-width: 1000px) {
@@ -805,6 +1123,39 @@
     .trainers__slider {
         max-width: 816px;
     }
+    .news__burger span {
+        display: block;
+    }
+    .header__news-top-social {
+        display: none;
+    }
+    .header__news-top {
+        justify-content: space-between;
+    }
+    .header__news-top-nav {
+        position: absolute;
+        width: 600px;
+        top: 30px;
+        left: 200px;
+        font-size: 30px;
+        color: darkred;
+        background-color: rgba(220, 220, 220, 0.9);
+        border-radius: 10px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease, opacity 0.5s ease;
+        opacity: 0;
+    }
+    .header__news-top-nav.height {
+        max-height: 500px; 
+        opacity: 1;
+    }
+    .header__news-top-ul {
+        flex-direction: column;
+    }
+    .grid--style--container {
+        padding: 10px 10px;
+    }
 }
 @media (max-width: 900px) {
     .header {
@@ -835,6 +1186,15 @@
     .trainers__slider {
         max-width: 800px;
     }
+    .header__news-top-nav {
+        left: 100px;
+    }
+    .section__news-grid {
+        gap: 10px;
+    }
+    .grid--style--img {
+        margin-bottom: 0px;
+    }
 }
 @media (max-width: 800px) {
     .header__nav {
@@ -858,6 +1218,15 @@
     }
     .trainers__slider {
         max-width: 600px;
+    }
+    .header__news-top-nav {
+        left: 50px;
+    }
+    .section__news-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid--style--box {
+        min-height: 450px;
     }
 }
 @media (max-width: 700px) {
@@ -953,6 +1322,15 @@
     .price__slide-img {
         width: 500px;
     }
+    .header__news-top-nav {
+        width: 500px;
+    }
+    .grid--style--text2 {
+        font-size: 16px;
+    }
+    .grid--style--box {
+        min-height: 430px;
+    }
 }
 @media (max-width: 600px) {
     .header__nav {
@@ -1012,6 +1390,15 @@
     }
     .sport__club-block-right-container {
         margin-left: 50px;
+    }
+    .header__news-top-nav {
+        width: 400px;
+    }
+    .grid--style--box {
+        min-height: 365px;
+    }
+    .grid--style--img {
+        min-height: 175px;
     }
 }
 @media (max-width: 550px) {
@@ -1113,6 +1500,19 @@
     }
     .sport__club {
         margin-bottom: 0px;
+    }
+    .header__news-top-nav {
+        width: 300px;
+    }
+    .section__news-grid {
+        grid-template-columns: 1fr;
+    }
+    .grid--style--box {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .header__news {
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 450px) {
@@ -1227,6 +1627,21 @@
     .price__slide-img {
         width: 300px;
     }
+    .footer__text {
+        display: none;
+    }
+    .header__news-top-nav {
+        width: 250px;
+}
+.header__news-top-nav {
+    left: 50px;
+}
+.header__news-top-li {
+    margin-right: 0px;
+}
+.header__news-top-li:last-child {
+    margin-right: 0px;
+}
 }
 @media (max-width: 350px) {
     .header__nav {
@@ -1262,6 +1677,9 @@
         font-size: 30px;
         margin-bottom: 15px;
     }
+    .header__news-top-nav {
+        left: 10px;
+    }
 }
 @media (max-width: 320px) {
     .header__body-button {
@@ -1270,6 +1688,10 @@
     
     .trainers__slider {
         max-width: 196px;
+    }
+    .header__news-top-nav {
+        left: 0px;
+        width: 230px;
     }
 }
 @media (max-width: 300px) {
